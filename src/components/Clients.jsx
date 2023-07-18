@@ -23,4 +23,9 @@ const Clients = () => {
 
 export default Clients;
 
-const Section = styled.section``;
+const Section = styled.section`
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 7rem;
+`;

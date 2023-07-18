@@ -14,12 +14,14 @@ const Div = styled.div`
         border-radius: 4rem;
         padding: 0.8rem 2rem;
         border: none;
-        color: white;
+        color: black;
         font-size: 1.1rem;
         cursor: pointer;
         :not(.blue) {
-            background-color: transparent;
+            background-color: grey;
             border: 1px solid white;
+        }
+        &:hover {
         }
     }
     .blue {

@@ -3,6 +3,8 @@ import Home from "./components/Home";
 import CreateAndSell from "./components/CreateAndSell";
 import Choose from "./components/Choose";
 import MarketPlace from "./components/MarketPlaceComponent";
+import Subscribe from "./components/Subscribe";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -12,6 +14,8 @@ function App() {
             <CreateAndSell />
             <Choose />
             <MarketPlace />
+            <Subscribe />
+            <Footer />
         </div>
     );
 }
